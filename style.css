@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom right,#03A9F4, #FF9800);
+    height: 98vh;
+    font-family: sans-serif;
+}
+
+.container{
+    text-align: center;
+    padding: 100px;
+    display: block;
+}
+
+#input{
+    padding: 8px;
+    font-size: 15px;
+    border: 1px lightgrey;
+    background: floralwhite;
+}
+
+#opt{
+    font-size: 16px;
+    padding: 7px;
+    cursor: pointer;
+    background: #03A9F4;
+    /* opacity: 0.3; */
+    color: white;
+}
+
+
+#btn{
+    font-size: 16px;
+    padding: 10px 25px;
+    cursor: pointer;
+    background:#1b2e97;
+    border-radius: 7px;
+    color: white;
+    border: none;
+}
+
+span{
+    color: #03A9F4;
+    background: yellow;
+    padding: 6px;
+}
+
+h2{
+    color: white;
+    border: 3px solid black;
+    padding: 12px;
+    display: inline-table;
+    margin-top: 60px;;
+}
